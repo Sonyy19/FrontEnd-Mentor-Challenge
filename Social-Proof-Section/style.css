@@ -1,1 +1,133 @@
 @import url(https://fonts.googleapis.com/css2?family=Spartan&display=swap);
+
+body {
+  font-family: "Spartan", sans-serif;
+  font-size: 15px;
+  background-image:  url(images/bg-pattern-top-desktop.svg), url(images/bg-pattern-bottom-desktop.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: 18% 0px, 100% 36%;
+}
+:root {
+  --white: hsl(0, 0%, 100%);
+  --light-grayish-magenta: hsl(300, 24%, 96%);
+  --dark-grayish-magenta: hsl(303, 10%, 53%);
+  --very-dark-magenta: hsl(300, 43%, 22%);
+  --soft-pink: hsl(333, 80%, 67%);
+}
+main {
+  width: 80vw;
+  margin: auto;
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+#first-row {
+  display: flex;
+}
+
+header {
+  flex-basis: 60%;
+  
+}
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--very-dark-magenta);
+}
+p {
+  font-size: small;
+  font-weight: 400;
+  margin-top: 1rem;
+  color: var(--dark-grayish-magenta);
+  line-height: 1,5rem;
+}
+
+#star-wrap {
+  flex-basis: 60%;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  padding-top: 2rem;
+  margin-left: 12rem;
+}
+.star-item {
+  font-weight: 700;
+  color: var(--very-dark-magenta);
+  background-color: var(--light-grayish-magenta);
+  padding: 1rem;
+  border-radius: 10px;
+}
+.star-item1 {
+  align-self: flex-start;
+  margin-bottom: 1rem;
+}
+.star-item2 {
+  align-self: center;
+  margin-bottom: 1rem;
+}
+.star-item3 {
+  align-self: flex-end;
+}
+.star {
+  margin: 1rem 2rem 1rem 1rem;
+  display: inline;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  height: 16rem;
+  margin-top: 3rem;
+}
+.card {
+  background-color: var(--very-dark-magenta);
+  border-radius: 10px;
+  padding: 2rem;
+  flex: 1 1 27%;
+  height: 10rem;
+}
+
+.card-title {
+  display: flex;
+  align-items: center;
+}
+.name-des {
+  font-size: small;
+  display: inline-block;
+  flex-direction: column;
+  padding-left: 1rem;
+}
+.name {
+  color: var(--white);
+}
+.designation {
+  color: var(--soft-pink);
+}
+.avatar {
+  border-radius: 50%;
+  width: 2rem;
+}
+.card-text {
+  color: var(--white);
+  line-height: 1,5rem;
+  padding-top: 2rem;
+  font-size: small;
+}
+
+.card1 {
+  align-self: flex-start;
+  margin-right: 1rem;
+}
+.card2 {
+  align-self: center;
+  margin-right: 1rem;
+}
+.card3 {
+  align-self: flex-end;
+}
+
+ /* Responsive */
+ @media only screen and (max-width: 1024px)  {
+   
+ }
