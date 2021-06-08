@@ -53,12 +53,21 @@ p {
 .learn-more {
     font-size: 16px;
     background-color: var(--transparent-white);
-    color: black;
     text-align: center;
     padding: 15px 15px;
     border-radius: 30px;
     width: 9em;
 }
+.sedans .learn-more {
+  color: var(--bright-orange);
+}
+.suvs .learn-more {
+  color: var(--dark-cyan);
+}
+.luxury .learn-more {
+  color: var(--very-dark-cyan);
+}
+
 img {
     width: 70px;
     height: 45px;
