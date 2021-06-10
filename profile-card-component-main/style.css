@@ -33,6 +33,8 @@ body {
 .top {
   height: 35%;
   background-image: url(images/bg-pattern-card.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .body {
@@ -65,7 +67,7 @@ span {
 }
 
 .bottom {
-  border-top: 2px solid dimgray;
+  border-top: 1px solid gainsboro;
   display: flex;
   justify-content: space-evenly;
 
