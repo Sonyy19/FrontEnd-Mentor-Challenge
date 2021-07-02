@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500&display=swap");
+
+body {
+  font-size: 1.3rem;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  color: $White;
+}
+.card {
+  .author {
+    .author__title {
+      font-size: 1rem;
+      opacity: 0.5;
+    }
+  }
+  &__heading {
+    font-size: 1.8rem;
+
+  }
+  &__text {
+
+      opacity: 0.7;
+      line-height: 1.5rem;
+  }
+}
+
+
